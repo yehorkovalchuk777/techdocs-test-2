@@ -1,12 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: sample-api
-  title: Sample API
+  title: Sample API 2
   description: Sample API catalog entity with TechDocs documentation
-  annotations:
-    backstage.io/techdocs-ref: dir:.
+  namespace: backstage
 spec:
-  type: service
+  type: openapi
   lifecycle: experimental
   owner: user:guest
