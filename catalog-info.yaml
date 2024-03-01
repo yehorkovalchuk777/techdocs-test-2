@@ -9,3 +9,5 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: user:guest
+  definition:
+    $text: ./sample.oas.yaml
