@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: sample-api
+  name: sample-api-2
   title: Sample API 2
   description: Sample API catalog entity with TechDocs documentation
   namespace: backstage
